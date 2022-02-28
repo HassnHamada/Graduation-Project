@@ -16,4 +16,3 @@ if __name__ == "__main__":
     print(ret_str)
     # Print the number of words and WPM
     print(metronome(ret_str), metronome(ret_str, MIC_RUN_TIME))
-    pass

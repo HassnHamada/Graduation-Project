@@ -1,7 +1,6 @@
-from language_tool_python import LanguageTool
 
 
-def correct(inp_str: str, language: str = "en-UK") -> str:
+def correct(inp_str: str) -> str:
     r"""
     Correct grammatical and spelling errors
 
@@ -9,8 +8,6 @@ def correct(inp_str: str, language: str = "en-UK") -> str:
     ----------
     inp_str : str
         A string to be corrected
-    language : str, default "en-UK"
-        The language to be used
 
     Returns
     -------
@@ -18,5 +15,4 @@ def correct(inp_str: str, language: str = "en-UK") -> str:
         The corrected string
     """
 
-    tool = LanguageTool(language)
-    return tool.correct(inp_str)
+    # TODO
