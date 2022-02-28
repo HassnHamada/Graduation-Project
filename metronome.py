@@ -11,6 +11,7 @@ def metronome(input_string: str, time: float or int = 0) -> int:
         A string whom length is needed
     time : float or int, default 0
         The time window in seconds if the WPM is needed
+
     Returns
     -------
     int
